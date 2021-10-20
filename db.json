@@ -184,5 +184,46 @@
     }
   ],
   "keranjangs": [],
-  "pesanans": []
+  "pesanans": [
+    {
+      "total_bayar": 40000,
+      "menus": [
+        {
+          "jumlah": 1,
+          "total_harga": 16000,
+          "product": {
+            "id": 1,
+            "kode": "K-01",
+            "nama": "Sate Ayam",
+            "harga": 16000,
+            "is_ready": true,
+            "gambar": "sate-ayam.jpg",
+            "category": {
+              "id": 1,
+              "nama": "Makanan"
+            }
+          },
+          "id": 1
+        },
+        {
+          "jumlah": 2,
+          "total_harga": 24000,
+          "product": {
+            "id": 3,
+            "kode": "K-03",
+            "nama": "Nasi Rames",
+            "harga": 12000,
+            "is_ready": true,
+            "gambar": "nasi-rames.jpg",
+            "category": {
+              "id": 1,
+              "nama": "Makanan"
+            }
+          },
+          "id": 2
+        }
+      ],
+      "id": 1
+    }
+  ]
 }
