@@ -186,8 +186,48 @@
   "keranjangs": [],
   "pesanans": [
     {
-      "total_bayar": 40000,
+      "total_bayar": 12000,
       "menus": [
+        {
+          "jumlah": 1,
+          "total_harga": 12000,
+          "product": {
+            "id": 3,
+            "kode": "K-03",
+            "nama": "Nasi Rames",
+            "harga": 12000,
+            "is_ready": true,
+            "gambar": "nasi-rames.jpg",
+            "category": {
+              "id": 1,
+              "nama": "Makanan"
+            }
+          },
+          "id": 1
+        }
+      ],
+      "id": 1
+    },
+    {
+      "total_bayar": 42000,
+      "menus": [
+        {
+          "jumlah": 1,
+          "total_harga": 14000,
+          "product": {
+            "id": 2,
+            "kode": "K-02",
+            "nama": "Nasi Goreng Telur",
+            "harga": 14000,
+            "is_ready": true,
+            "gambar": "nasi-goreng-telor.jpg",
+            "category": {
+              "id": 1,
+              "nama": "Makanan"
+            }
+          },
+          "id": 1
+        },
         {
           "jumlah": 1,
           "total_harga": 16000,
@@ -203,11 +243,11 @@
               "nama": "Makanan"
             }
           },
-          "id": 1
+          "id": 2
         },
         {
-          "jumlah": 2,
-          "total_harga": 24000,
+          "jumlah": 1,
+          "total_harga": 12000,
           "product": {
             "id": 3,
             "kode": "K-03",
@@ -220,10 +260,33 @@
               "nama": "Makanan"
             }
           },
-          "id": 2
+          "id": 3
         }
       ],
-      "id": 1
+      "id": 2
+    },
+    {
+      "total_bayar": 12000,
+      "menus": [
+        {
+          "jumlah": 1,
+          "total_harga": 12000,
+          "product": {
+            "id": 3,
+            "kode": "K-03",
+            "nama": "Nasi Rames",
+            "harga": 12000,
+            "is_ready": true,
+            "gambar": "nasi-rames.jpg",
+            "category": {
+              "id": 1,
+              "nama": "Makanan"
+            }
+          },
+          "id": 3
+        }
+      ],
+      "id": 3
     }
   ]
 }

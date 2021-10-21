@@ -127,7 +127,10 @@ function Home() {
                                 />
                             </Row>
                         </Col>
-                        <Keranjang keranjangs={keranjangs} />
+                        <Keranjang
+                            keranjangs={keranjangs}
+                            setTgrKeranjang={setTgrKeranjang}
+                        />
                     </Row>
                 </Container>
             </div>
