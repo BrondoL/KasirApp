@@ -115,12 +115,12 @@ function Home() {
                             changeCategory={changeCategory}
                             currentCategory={currentCategory}
                         />
-                        <Col>
+                        <Col className="mt-2">
                             <h4>
                                 <strong>Daftar Produk</strong>
                             </h4>
                             <hr />
-                            <Row>
+                            <Row className="overflow-auto menu">
                                 <MenuList
                                     menus={menus}
                                     masukKeranjang={masukKeranjang}

@@ -28,26 +28,51 @@ const TotalBayar = ({ keranjangs }) => {
             .catch((err) => console.log(err));
     };
     return (
-        <div className="fixed-bottom">
-            <Row>
-                <Col md={{ span: 3, offset: 9 }} className="px-4">
-                    <h4>
-                        Total Harga:{" "}
-                        <strong className="float-end me-2">
-                            Rp. {numberWithCommas(totalBayar)}
-                        </strong>
-                    </h4>
-                    <div className="d-grid gap-2 mb-3 mt-2 me-2">
-                        <Button
-                            bg="primary"
-                            onClick={() => onPesan(totalBayar)}
-                        >
-                            <FontAwesomeIcon icon={faShoppingCart} /> Bayar
-                        </Button>
-                    </div>
-                </Col>
-            </Row>
-        </div>
+        <>
+            {/* Web */}
+            <div className="fixed-bottom d-none d-md-block">
+                <Row>
+                    <Col md={{ span: 3, offset: 9 }} className="px-4">
+                        <h4>
+                            Total Harga:{" "}
+                            <strong className="float-end me-2">
+                                Rp. {numberWithCommas(totalBayar)}
+                            </strong>
+                        </h4>
+                        <div className="d-grid gap-2 mb-3 mt-2 me-2">
+                            <Button
+                                bg="primary"
+                                onClick={() => onPesan(totalBayar)}
+                            >
+                                <FontAwesomeIcon icon={faShoppingCart} /> Bayar
+                            </Button>
+                        </div>
+                    </Col>
+                </Row>
+            </div>
+
+            {/* Mobile */}
+            <div className="d-sm-block d-md-none mt-3">
+                <Row>
+                    <Col md={{ span: 3, offset: 9 }} className="px-4">
+                        <h4>
+                            Total Harga:{" "}
+                            <strong className="float-end me-2">
+                                Rp. {numberWithCommas(totalBayar)}
+                            </strong>
+                        </h4>
+                        <div className="d-grid gap-2 mb-3 mt-2 me-2">
+                            <Button
+                                bg="primary"
+                                onClick={() => onPesan(totalBayar)}
+                            >
+                                <FontAwesomeIcon icon={faShoppingCart} /> Bayar
+                            </Button>
+                        </div>
+                    </Col>
+                </Row>
+            </div>
+        </>
     );
 };
 

@@ -18,3 +18,17 @@ body {
 .navbar {
     background-color: #22668A;
 }
+
+@media only screen and (max-height: 1000px) {
+    .hasil {
+        height: 370px;
+    }
+
+    .menu {
+        height: 520px;
+    }
+}
+
+.overflow-auto {
+    scrollbar-width: none;
+}
